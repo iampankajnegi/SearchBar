@@ -19,7 +19,9 @@ function Search() {
 
         console.log("dts", data);
       } catch (error) {
-        setError(error);
+        console.error('Error fetching countries:', error);
+        setError('Failed to fetch countries. Please try again later.');
+
       }
     };
 
