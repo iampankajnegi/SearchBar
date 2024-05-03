@@ -1,0 +1,36 @@
+.countryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    justify-content: center; /* Center the cards horizontally */
+    
+    
+  }
+  
+  .countryCard {
+    width: 250px; /* Set the width of each card */
+    background-color: #f5f5f5; /* Background color of the card */
+    border-radius: 8px; /* Rounded corners for the card */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+    padding: 20px; /* Padding inside the card */
+  }
+  
+  .countryCard img {
+    width: 100%; /* Make sure the flag image fills the container */
+    border-radius: 8px; /* Rounded corners for the flag image */
+    margin-bottom: 10px; /* Margin below the flag image */
+  }
+  
+  .countryCard h3 {
+    font-size: 1.2rem; /* Font size for country name */
+    margin-bottom: 5px; /* Margin below the country name */
+  }
+  
+  .countryCard p {
+    font-size: 1rem; /* Font size for other details */
+    margin-bottom: 3px; /* Margin below each detail */
+  }
+  .search-bar input{
+    width:50%;
+    margin:10px;
+  }
